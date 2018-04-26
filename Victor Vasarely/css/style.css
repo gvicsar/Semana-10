@@ -1,0 +1,78 @@
+body {
+	height: 100%;
+	background-color: #cccccc;
+	background-image: linear-gradient(#071b3a, #09e1ed);
+}
+
+.maintitle {
+	font-size: 600%;
+	margin: 5% 5%;
+	text-align: center;
+	color: white;
+	font-family: 'Righteous', cursive;
+}
+.mainbackground{
+	background-image: url(../img/headtitle.jpg);
+	padding: 5% 5%;
+}
+.title {
+	font-size: 150%;
+}
+
+.row {
+	display: flex;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column-1, .column-2 {
+	flex: 1;
+	text-align: center;
+	font-size: 110%;
+	margin: 20px;
+	padding: 20px;
+	background-image: url("../img/OB_Vasarely1-7.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-radius: 15%;
+	line-height: 130%;
+}
+.row div img {
+	border-radius: 50%;
+	width: 150px;
+}
+
+.topnav {
+	overflow:hidden;
+	background:#071b3a;
+}
+.topnav a {
+	font-family: 'Roboto Condensed', sans-serif;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.nav {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 29.2%;
+}
+.footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+	margin-top: 2%;
+	padding: 2%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
